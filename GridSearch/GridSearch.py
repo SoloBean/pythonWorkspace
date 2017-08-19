@@ -2,7 +2,7 @@ import sys
 import math
 
 import numpy as np
-from sklearn.grid_search import GridSearchCV
+from sklearn.model_selection import GridSearchCV
 
 sys.path.append('xgboost/wrapper/')
 import xgboost as xgb
